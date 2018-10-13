@@ -1,6 +1,9 @@
 
 body{
-    border: 1px dashed green;
-    text-align: center;
-    background-color: #7290bf;
+  text-align: center;
+  background-color: #7290bf;
+}
+
+p {
+  border: 3px solid #402575;
 }
