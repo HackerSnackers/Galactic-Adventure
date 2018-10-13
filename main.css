@@ -11,5 +11,6 @@ p {
 }
 
 button {
+  padding-top: 10%;
   border: 3px solid #402575;
 }
