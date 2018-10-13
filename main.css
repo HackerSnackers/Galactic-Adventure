@@ -10,9 +10,6 @@ p {
   padding-bottom: 5%;
   float:left;
 
-  width: 100%;
-  overflow-x: auto;
-  height: 100%;
 }
 
 button {
