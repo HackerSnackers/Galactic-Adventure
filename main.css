@@ -1,4 +1,6 @@
 
 body{
+    border: 1px dashed green;
+    text-align: center;
     background-color: #7290bf;
 }
