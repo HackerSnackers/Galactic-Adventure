@@ -1,7 +1,9 @@
 
 body{
+  padding-top: 100px;
   text-align: center;
   background-color: #7290bf;
+  padding-bottom: 100px;
 }
 
 p {
