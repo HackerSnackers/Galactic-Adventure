@@ -5,9 +5,9 @@ body{
 }
 
 p {
-  padding-top: 100px;
-  border: 3px solid #402575;
-  padding-bottom: 100px;
+  padding-top: 5%;
+  border: 3px dashed #402575;
+  padding-bottom: 5%;
 }
 
 button {
