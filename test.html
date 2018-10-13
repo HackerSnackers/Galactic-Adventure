@@ -4,13 +4,17 @@
 <title> Galatic Adventure </title>
 </head>
 	<body>
+		<script>
+		function clickbutton() {
+		document.getElementByID("scene1choice1").innerHTML = "You found it!";
+		}
+		</script>
 
-
-	<p>The year is 3025. You have just been commissioned as a space force astronaut.<br>
+	<p id="scene1choice1" >The year is 3025. You have just been commissioned as a space force astronaut.<br>
 	Within the same week, you have been launched to a space station. You are currently <br>
 	the space stations source code when you hear a loud crash. What do you do?
 	</p>
-	<button type="button" >Stop updating the code and check out the crash.</button>
+	<button type="button" onclick="clickbutton()" >Stop updating the code and check out the crash.</button>
 	<br>
 	<button type="button" >Keep working on the code and check it out later.</button>
 	<br>
@@ -18,3 +22,4 @@
 	<br>
 	</body>
 </html>
+
