@@ -12,32 +12,28 @@
 	</p>
 	<br>
 
-	<button type="button" style="height:100px;width:400px" onclick= "clickButton()">
-		Stop updating the code and check out the crash.
+	<button onclick= "clickButton()"  type="button" style="height:100px;width:400px" id="btn1">
+		Button 1
 	</button>
 
-	<button type="button" style="height:100px;width:400px">
-		Keep working on the code and check it out later.
+	<button onclick= "clickButton()"  type="button" style="height:100px;width:400px" id="btn2">
+		Button 2
 	</button>
+
 	<br>
 
-	<button type="button" style="height:100px;width:400px">
-		Send astronaut George(the other computer specialist) to check out the noise
+	<button onclick= "clickButton()"  type="button" style="height:100px;width:400px" id="btn3">
+		Button 3
 	</button>
 
-	<button type="button" style="height:100px;width:400px">
-		"FIXME"
+	<button onclick= "clickButton()"  type="button" style="height:100px;width:400px" id="btn4">
+		Button 4
 	</button>
-	<br>
-
-	<!-- <div class="boxed">
-  	This text is enclosed in a box.
-	</div> -->
 
 	</body>
 	<script>
 		function clickButton() {
-		document.getElementById("scene1").innerHTML = "You found it!";
+		document.getElementById("btn1").innerHTML="Button 1 Updated";
 		}
 	</script>
 
