@@ -12,6 +12,11 @@ p#story {
     font-family: "OCR A Std", monospace, "Courier New";
 }
 
+p#p-header{
+  color: white;
+  font: font-family: "Stencil Std", fantasy;
+}
+
 button {
     position: relative;
     border: 1px solid #402575;
@@ -25,6 +30,7 @@ button {
 }
 
 div.header{
+
     bottom: 75%;
     height: 25%;
     width: 99%;
