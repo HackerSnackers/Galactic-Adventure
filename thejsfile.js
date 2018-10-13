@@ -11,6 +11,6 @@
 		
 		function clickButton() {
 		
-		
+		document.getElementById("btn1").innerHTML = choices;
 		
 		}
