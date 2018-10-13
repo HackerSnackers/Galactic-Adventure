@@ -1,12 +1,9 @@
 
 body{
-    text-align: center;
-    background-color: #7290bf;
+  text-align: center;
+  background-color: #7290bf;
 }
 
-p.scene1 {
+p {
   border: 3px solid #402575;
-
 }
-
-<p class = "scene1">
