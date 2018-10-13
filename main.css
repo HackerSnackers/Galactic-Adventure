@@ -21,6 +21,10 @@ p#p-header{
   position: relative;
 }
 
+img.dwagon {
+    float:left;
+}
+
 button {
     position: relative;
     border: 1px solid #402575;
