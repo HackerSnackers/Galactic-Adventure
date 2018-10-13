@@ -4,13 +4,18 @@
 <title> Galatic Adventure </title>
 <link rel="stylesheet" type="text/css" href="main.css">
 </head>
-	<body>
-		<div class="header">
+		<div class="header"><p id="music" >
+			<audio controls autoplay>
+				<source src="music.mp3" type="audio/mpeg">
+			</audio>
+		</p>
 		<p id="p-header">
 			Galactic Adventure
 		</p>
 		</div>
-
+		
+		
+		
 		<div class="story-text-box">
 			<p id = "story">
 				The year is 3025. You have just been commissioned as a space force astronaut.<br>
@@ -20,6 +25,7 @@
 		</div>
 		<br>
 
+		<p id = "contain" ></p>
 		<div class="Buttons">
 			<button onclick= "clickButton1()"  type="button" id="btn1">
 				You go check out the crash
@@ -32,7 +38,7 @@
 			<div></div>
 
 			<button onclick= "clickButton3()"  type="button" id="btn3">
-				You send george to check out the crash
+				You send george to check out the noise
 			</button>
 
 			<button onclick= "clickButton4()"  type="button" id="btn4">
