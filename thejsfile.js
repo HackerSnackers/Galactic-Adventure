@@ -9,6 +9,8 @@
 
 		var D = 0;
 
+
 		function clickButton() {
-		document.getElementById("btn1").innerHTML = choices;
+		document.getElementById("btn1").innerHTML = "sound alarm";
+		document.getElementById("btn2").innerHTML = "check out the smoke";
 		}
