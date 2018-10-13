@@ -1,39 +1,36 @@
 
 body{
   text-align: center;
-  background-color: #7290bf;
+  background-color: black;
 }
 
 p {
-  border: 3px dashed #402575;
-  float:left;
-
-  color: black;
-  width: 100%;
-  height: 100%;
-  overflow: scroll;
-
+    color: yellow;
 }
 
 button {
   border: 2px solid #402575;
+  position: relative;
+  width: 49%;
+  height: 49%;
+  background-color: black;
 
 }
 
 div.story-text-box{
-    padding-top: 1%;
-      padding-bottom: 1%;
+    border: 3px dashed #402575;
+    overflow-y: scroll;
+    overflow-x: auto;
     position: fixed;
     bottom:25%;
     height: 50%;
-    width:100%;
-    border: 2px solid #f43b42;
+    width:99%;
 }
 
 div.Buttons{
     position: fixed;
     bottom:0%;
     height: 25%;
-    width:100%;
-    border: 2px solid #122448;
+    width:99%;
+    /* border: 3px dashed #402575; */
 }
