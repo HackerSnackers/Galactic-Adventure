@@ -8,12 +8,12 @@ body{
 
 }
 
-p#story {
+p.story {
     color: yellow;
     font-family: "OCR A Std", monospace, "Courier New";
 }
 
-p#p-header{
+p.p-header{
   color: #cbdaf2;
   font-family: "OCR A Std", monospace, "Courier New";
   font-size: 300%;
