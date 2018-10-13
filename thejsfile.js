@@ -9,6 +9,12 @@
 
 		var D = 0;
 
+
 		function clickButton() {
+<<<<<<< HEAD
+		document.getElementById("btn1").innerHTML = "sound alarm";
+		document.getElementById("btn2").innerHTML = "check out the smoke";
+=======
 		document.getElementById("btn1").innerHTML = "I worked!";
+>>>>>>> 25d364be6803e77cdee8755f24554d0570f08abe
 		}
