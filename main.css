@@ -2,6 +2,7 @@
 body{
   text-align: center;
   background-color: black;
+  background-image: url(universe.jpg);
 }
 
 p {
@@ -9,11 +10,14 @@ p {
 }
 
 button {
-  border: 2px solid #402575;
-  position: relative;
-  width: 49%;
-  height: 49%;
-  background-color: black;
+    position: relative;
+    border: 2px solid #402575;
+
+    width: 49%;
+    height: 49%;
+
+    background-color: black;
+    color: white;
 
 }
 
