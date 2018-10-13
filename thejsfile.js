@@ -1,9 +1,16 @@
-		var choices1andDone= new Array("Choice1A ", "Choice2AA ", "Choice1B ", "Choice2B ", "ChoiceGameover ", "ChoiceRestart ");
-		var choices23 =  new Array("Choice2A ", "Choice3A ", "Choice3AA ", "Choice3AAA ", "Choice3AAAA");
-		var choices456 = new Array("Choice4A ", "Choice4AA ", "Choice5A ", "Choice5AA ", "Choice6A ");
-		var choices78 = new Array("Choice7A ", "Choice7AA ", "Choice7AAAA ", "Choice7AAAA ", "Choice8A ", "Choice8AA ");
+		var choices = new Array[1A, 2AA , 1B , 2B , 1C , 1D, 2A, 3A , 3AA , 3AAA , 3AAAA, 4A, 4AA , 5A , 5AA , 6A , 7A , 7AA , 7AAAA , 7AAAA , 8A , 8AA];
+	
+		var A = 13;
+		
+		var B = 1000;
+		
+		var C = 3;
+		
+		var D = 0;
+	
 		
 		function clickButton() {
+<<<<<<< HEAD
 				document.getElementById("btn1").innerHTML="sound alarm";
 				document.getElementById("btn2").innerHTML="check out the smoke";
 				document.getElementById("btn3").innerHTML="";
@@ -16,3 +23,9 @@
 			
 
 		
+=======
+		
+		document.getElementById("btn1").innerHTML = choices;
+		
+=======
+>>>>>>> 7b9ddf1f6c14ca3da263872036d10f41c6c340a9
