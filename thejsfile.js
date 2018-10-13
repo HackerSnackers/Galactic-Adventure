@@ -1,5 +1,3 @@
-
-
 		function clickButton1(){
 			document.getElementById("btn1").innerHTML = "Succes";
 			document.getElementById("btn2").innerHTML = "Succes";
