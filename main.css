@@ -12,4 +12,11 @@ p {
 
 button {
   border: 3px solid #402575;
+
+}
+
+div.Buttons{
+    border: 3px solid #402575;
+    position:relative;
+    margin-top:16%;
 }
