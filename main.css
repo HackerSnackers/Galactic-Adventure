@@ -18,7 +18,7 @@ p#p-header{
   font-family: "OCR A Std", monospace, "Courier New";
   font-size: 300%;
   font-style: oblique;
-
+  position: relative;
 }
 
 button {
