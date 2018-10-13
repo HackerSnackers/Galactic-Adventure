@@ -39,10 +39,8 @@ div.story-text-box{
     height: 50%;
     width:99%;
 
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: auto;
-
-    scroll-behavior: auto;
 }
 
 div.Buttons{
