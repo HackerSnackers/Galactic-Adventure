@@ -6,18 +6,6 @@
 
 		function clickButton1(){
 
-			if(i == 1){
-				document.getElementById("story").appendChild(document.createElement("br"));
-
-				document.getElementById("story").appendChild(document.createTextNode("Different"));
-
-				document.getElementById("btn1").innerHTML = "Sound the fire alarm to alert the station";
-				document.getElementById("btn2").innerHTML = "Check out the smoke before sounding the alarm";
-				document.getElementById("btn3").innerHTML = "";
-				document.getElementById("btn4").innerHTML = "";
-				i = 3;
-			}
-
 			if (i == 7){
 				document.getElementById("story").appendChild(document.createElement("br"));
 				document.getElementById("story").appendChild(document.createTextNode("You go on many adventures with the captain and eventually end up being promoted to the fleet commander. You explore vast areas of space, surviving black holes, winning space wars, and developing new space technologies.Congratulations on your success in the space force!!!"));
