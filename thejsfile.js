@@ -27,5 +27,8 @@
 		
 		document.getElementById("btn1").innerHTML = choices;
 		
+<<<<<<< HEAD
 =======
 >>>>>>> 7b9ddf1f6c14ca3da263872036d10f41c6c340a9
+=======
+>>>>>>> 42a103e7a7b3a23b6ba08a01b692b346ce4cdeae
