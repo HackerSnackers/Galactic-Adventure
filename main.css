@@ -8,6 +8,11 @@ p {
   padding-top: 5%;
   border: 3px dashed #402575;
   padding-bottom: 5%;
+  float:left;
+
+  width: 1000px;
+  overflow-y: auto;
+  height: 100px;
 }
 
 button {
