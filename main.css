@@ -14,7 +14,8 @@ p#story {
 
 p#p-header{
   color: white;
-  font: font-family: "Stencil Std", fantasy;
+  font-family: "OCR A Std", monospace, "Courier New";
+  font-size: 300%;
 }
 
 button {
@@ -34,7 +35,6 @@ div.header{
     bottom: 75%;
     height: 25%;
     width: 99%;
-    /*background: white;*/
 }
 
 div.story-text-box{
