@@ -3,6 +3,7 @@
 <head>
 <title> Galatic Adventure </title>
 <link rel="stylesheet" type="text/css" href="main.css">
+<script src="main.js"></script>
 </head>
 	<body>
 
@@ -14,29 +15,38 @@
 
 
 <div class="Buttons">
-	<button onclick= "clickButton()"  type="button" style="height:100px;width:400px" id="btn1">
+	<button onclick= "clickButton1()"  type="button" style="height:100px;width:400px" id="btn1">
 		Button 1
 	</button>
 
-	<button onclick= "clickButton()"  type="button" style="height:100px;width:400px" id="btn2">
+	<button onclick= "clickButton2()"  type="button" style="height:100px;width:400px" id="btn2">
 		Button 2
 	</button>
 
-	<br>
+	<br><br>
 
-	<button onclick= "clickButton()"  type="button" style="height:100px;width:400px" id="btn3">
+	<button onclick= "clickButton3()"  type="button" style="height:100px;width:400px" id="btn3">
 		Button 3
 	</button>
 
-	<button onclick= "clickButton()"  type="button" style="height:100px;width:400px" id="btn4">
+	<button onclick= "clickButton4()"  type="button" style="height:100px;width:400px" id="btn4">
 		Button 4
 	</button>
 </div>
 
 	</body>
 	<script>
-		function clickButton() {
+		function clickButton1() {
 		document.getElementById("btn1").innerHTML="Button 1 Updated";
+		}
+		function clickButton2() {
+		document.getElementById("btn2").innerHTML="Button 2 Updated";
+		}
+		function clickButton3() {
+		document.getElementById("btn3").innerHTML="Button 3 Updated";
+		}
+		function clickButton4() {
+		document.getElementById("btn4").innerHTML="Button 4 Updated";
 		}
 	</script>
 
