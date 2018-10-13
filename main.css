@@ -3,8 +3,9 @@ body{
   text-align: center;
   background-color: black;
   background-image: url(background.jpg);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
+
 }
 
 p#story {
@@ -17,6 +18,7 @@ p#p-header{
   font-family: "OCR A Std", monospace, "Courier New";
   font-size: 300%;
   font-style: oblique;
+  position: relative;
 }
 
 button {
@@ -28,7 +30,7 @@ button {
 
     background-color: black;
     color: #cbdaf2;
-
+    font-family: "OCR A Std", monospace, "Courier New";
 }
 
 div.header{
@@ -40,7 +42,7 @@ div.header{
 
 div.story-text-box{
     position: fixed;
-    border: 3px dashed #402575;
+  /*  border: 3px dashed #402575;*/
 
     bottom:25%;
     height: 50%;

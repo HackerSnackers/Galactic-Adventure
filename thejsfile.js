@@ -1,8 +1,11 @@
  var i = 0;
-
-
+	var A = 1;
+	var B = 2;
+	var C = 3;
+	var D = 4;
 
 		function clickButton1(){
+<<<<<<< HEAD
 			
 			if (i == 7){
 				document.getElementById("story").appendChild(document.createElement("br"));
@@ -81,56 +84,79 @@
 				document.getElementById("btn4").innerHTML = "";
 				i = 2;
 			}
+=======
+			document.getElementById("story").appendChild(document.createElement("br"));
+
+			// if(i == 1){
+			// 	document.getElementById("story").appendChild(document.createTextNode("Different"));
+			//
+			// 	document.getElementById("btn1").innerHTML = "Sound the fire alarm to alert the station";
+			// 	document.getElementById("btn2").innerHTML = "Check out the smoke before sounding the alarm";
+			// 	document.getElementById("btn3").innerHTML = "";
+			// 	document.getElementById("btn4").innerHTML = "";
+			// 	i = 2;
+			// }
+>>>>>>> f5f469a3b7056d519cdc068d88f52e72d534f3d3
 
 			if (i == 0){
-				document.getElementById("story").appendChild(document.createElement("br"));
+
 				document.getElementById("story").appendChild(document.createTextNode("You leave your computer station and walk down the hallway to the crash, as you get closer to the crash site you start to smell smoke. You were trained to alert the ship immediately but you know if you do this for a false alarm you may be fired from your position and sent back to earth. What do you do?"));
 
 				document.getElementById("btn1").innerHTML = "Sound the fire alarm to alert the station";
 				document.getElementById("btn2").innerHTML = "Check out the smoke before sounding the alarm";
 				document.getElementById("btn3").innerHTML = "";
 				document.getElementById("btn4").innerHTML = "";
-				i = 1;
+				i = A * 1;
 			}
 
 
 		}
 
 		function clickButton2(){
-			if (i==1){
-				document.getElementById("story").appendChild(document.createElement("br"));
-				document.getElementById("story").appendChild(document.createTextNode("You leave your computer station and walk down the hallway to the crash, as you get closer to the crash site you start to smell smoke. You were trained to alert the ship immediately but you know if you do this for a false alarm you may be fired from your position and sent back to earth. What do you do?"));
-			document.getElementById("btn1").innerHTML = "Sound the fire alarm to alert the station";
-			document.getElementById("btn2").innerHTML = "Check out the smoke before sounding the alarm";
-			document.getElementById("btn3").innerHTML = "";
-			document.getElementById("btn4").innerHTML = "";
-			i = 2;
-			}
-		
-			
-			
-			
-			
+			document.getElementById("story").appendChild(document.createElement("br"));
+
+			// if (i==1){
+			// 	document.getElementById("story").appendChild(document.createTextNode("You leave your computer station and walk down the hallway to the crash, as you get closer to the crash site you start to smell smoke. You were trained to alert the ship immediately but you know if you do this for a false alarm you may be fired from your position and sent back to earth. What do you do?"));
+			// document.getElementById("btn1").innerHTML = "Sound the fire alarm to alert the station";
+			// document.getElementById("btn2").innerHTML = "Check out the smoke before sounding the alarm";
+			// document.getElementById("btn3").innerHTML = "";
+			// document.getElementById("btn4").innerHTML = "";
+			// i = 2;
+			// }
+
+
+
+
+
 			if (i==0){
-				document.getElementById("story").appendChild(document.createElement("br"));
 				document.getElementById("story").appendChild(document.createTextNode("You casually keep working telling yourself that you will check out the crash after the system is updated. Pretty soon you become tired, what do you do?"));
 
 			document.getElementById("btn1").innerHTML = "Drink a coffee";
 			document.getElementById("btn2").innerHTML = "Check out the noise";
 			document.getElementById("btn3").innerHTML = "";
 			document.getElementById("btn4").innerHTML = "";
-			i = 1;
+			i = B * 1;
 		}
+
 		}
 
 		function clickButton3(){
-			document.getElementById("btn1").innerHTML = "Succes";
-			document.getElementById("btn2").innerHTML = "Succes";
-			document.getElementById("btn3").innerHTML = "Succes";
-			document.getElementById("btn4").innerHTML = "Succes";
+			document.getElementById("story").appendChild(document.createElement("br"));
+
+			if (i == 0){
+				document.getElementById("story").appendChild(document.createTextNode("You ask George to check out the noise, but unfortunately George went to university of south carolina and was too chicken to do anything. You call him a wimp and then what do you do?"));
+
+			document.getElementById("btn1").innerHTML = "You go and check out the crash";
+			document.getElementById("btn2").innerHTML = "You ignore the crash and keep working";
+			document.getElementById("btn3").innerHTML = "You send george to check out the crash";
+			document.getElementById("btn4").innerHTML = "Sound the alarm to alert the station";
+			i = 0;
+		}
 		}
 
 		function clickButton4(){
+			document.getElementById("story").appendChild(document.createElement("br"));
+
 			document.getElementById("btn1").innerHTML = "Succes";
 			document.getElementById("btn2").innerHTML = "Succes";
 			document.getElementById("btn3").innerHTML = "Succes";
