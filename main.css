@@ -16,12 +16,13 @@ p {
 }
 
 button {
-  border: 3px solid #402575;
+  border: 2px solid #402575;
 
 }
 
 div.Buttons{
-    border: 3px solid #402575;
-    position:relative;
-    margin-top:16%;
+    position: fixed;
+    bottom:0%;
+    width:100%;
+    border: 2px solid #402575;
 }
