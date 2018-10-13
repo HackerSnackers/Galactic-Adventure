@@ -15,18 +15,22 @@
 
 			<div class="Buttons">
 				<button onclick= "clickButton()"  type="button" style="height:100px;width:600px" id="btn1">
+					check out the crash
 				</button>
 
 				<button onclick= "clickButton()"  type="button" style="height:100px;width:600px" id="btn2">
+					ignore the crash and keep working
 				</button>
 
 				<br>
 				<div></div>
 
 				<button onclick= "clickButton()"  type="button" style="height:100px;width:600px" id="btn3">
+					Ask George to check out the crash
 				</button>
 
 				<button onclick= "clickButton()"  type="button" style="height:100px;width:600px" id="btn4">
+					Sound the space stations alarm
 				</button>
 			</div>
 		</div>
@@ -34,6 +38,10 @@
 			</body>
 			<script>
 			function clickButton() {
+				document.getElementById("btn1").innerHTML="sound alarm";
+				document.getElementById("btn2").innerHTML="check out the smoke";
+				document.getElementById("btn3").innerHTML="";
+				document.getElementById("btn4").innerHTML="";
 			}
 			</script>
 
