@@ -30,7 +30,7 @@ button {
 
     background-color: black;
     color: #cbdaf2;
-
+    font-family: "OCR A Std", monospace, "Courier New";
 }
 
 div.header{
@@ -42,7 +42,7 @@ div.header{
 
 div.story-text-box{
     position: fixed;
-    border: 3px dashed #402575;
+  /*  border: 3px dashed #402575;*/
 
     bottom:25%;
     height: 50%;
