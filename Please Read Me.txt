@@ -1,0 +1,26 @@
+Hey guys!
+
+Remember when we discovered Dictionaries? Yes? Please please please try to incorperate this into the website. This would help make the game functional.
+
+Here's an idea of what it should look like: (Key = C: Choice###
+
+Key		Values (Become keys if found, generally stored as an array or list of some sort)
+-------------------------
+C1	| [("C2","C3","C6")]
+C2	| [("C2","C5","C6")]
+C3	| [("")] 		-- What dead end would look likea script would run to restart after a time.sleep(milliseconds) Command
+C4 	| [("C3","C6","C7")]
+C5	| [("C9000")]		-- Case would be so large nothing could reach it, signaling a victory (How error checking is done)
+C6	| [("C7","C8")]
+C7	| [("C9000","C3"]	-- Final decision, either victory or death ("Ad Victorian"), can be modified to go back
+
+
+Definetly think about this and how you would Implement this. Hannah did a great job at working on the JScript and has a bright future in this. 
+
+Aika did a great job in CSS and has a real knack for spacial design
+
+Aaron has a great overall grasp of what is going on
+
+and Beau is great with words and storytelling!
+
+Definetly keep honing your skills and working on this to create a masterpiece!
