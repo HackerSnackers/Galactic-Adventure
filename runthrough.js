@@ -33,8 +33,12 @@ function clickButton3(){
 }
 
 function clickButton4(){
-  document.getElementById("btn1").innerHTML = "Succes";
-  document.getElementById("btn2").innerHTML = "Succes";
-  document.getElementById("btn3").innerHTML = "Succes";
-  document.getElementById("btn4").innerHTML = "Succes";
+  document.getElementById("btn1").innerHTML = "Abandon ship to save yourself";
+    if (typeof(button) === 'btn1') {
+
+    }
+
+  document.getElementById("btn2").innerHTML = "Report to battle station, the force is with me";
+  document.getElementById("btn3").innerHTML = "Call for space force backup";
+  document.getElementById("btn4").innerHTML = "";
 }
